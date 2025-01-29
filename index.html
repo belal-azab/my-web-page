@@ -1,81 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Page</title>
     <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            background-color: #444;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      header {
+        background-color: #444;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        border: 1px solid #ccc;
+      }
+      h1  {
+        color: #ffffff;
+      }
+      p {
+        line-height: 1.6;
+      }
+      nav {
+        text-align: center;
+        margin: 20px 0;
+      }
+      nav a {
+        color: #444;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 10px;
+        background-color: #444;
+        color: #fff;
+      }
+      @media (max-width: 600px) {
+        nav a {
+          display: block;
+          margin: 10px 0;
         }
         .container {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 800px;
-            border: 1px solid #ccc;
+          padding: 10px;
+          margin: 10px;
         }
-        h1, h2 {
-            color: #444;
-        }
-        p {
-            line-height: 1.6;
-        }
-        nav {
-            text-align: center;
-            margin: 20px 0;
-        }
-        nav a {
-            color: #444;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 style="color: #fff;">Welcome to My Page</h1>
+      <h1>Welcome</h1>
     </header>
     <nav>
-        <a href="#about">About</a>
-        <a href="#articles">Articles</a>
-        <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="#articles">Articles</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="container" id="about">
-        <h2>About</h2>
-        <p>Hello! my name is  - Belal Azab. As a passionate cybersecurity junior, I'm dedicated to exploring the dynamic world of digital security.I love to share knowledge and engage with people who have similar interests. Stay tuned for more updates!</p>
-        
+      <h2>About</h2>
+      <p>
+        Hello! my name is - Belal Azab. As a passionate cybersecurity junior,
+        I'm dedicated to exploring the dynamic world of digital security. I love
+        to share knowledge and engage with people who have similar interests.
+        Stay tuned for more updates!
+      </p>
     </div>
     <div class="container" id="articles">
-        <h2>Articles</h2>
-        <p>Here are some of my latest articles:</p>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <p>Yah i know it's empty :) for now atleast!</p>
-        </ul>
+      <h2>Articles</h2>
+      <p>Here are some of my latest articles:</p>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p>Yah i know it's empty :) for now at least!</p>
     </div>
     <div class="container" id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to email me at <a href="mailto:belal.azabb@gmail.com">belal.azabb@gmail.com</a>.</p>
+      <h2>Contact</h2>
+      <p>
+        Feel free to email me at
+        <a href="mailto:belal.azabb@gmail.com">belal.azabb@gmail.com</a>.
+      </p>
     </div>
-</body>
+    <footer>
+      <p>  Belal Azab.</p>
+    </footer>
+  </body>
 </html>
